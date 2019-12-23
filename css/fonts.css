@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'aller';
+  src: url('../fonts/aller_bd-webfont.woff') format('woff'),
+    url('../fonts/aller_bd-webfont.woff2') format('woff2');
+}
