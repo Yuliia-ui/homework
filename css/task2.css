@@ -1,3 +1,8 @@
+:root {
+  --main-color: #212121;
+  --link-color: #1976d2;
+  --link-color-change: #ff4081;
+}
 body {
   font-family: 'PT Sans', sans-serif;
   background-color: #ffffff;
@@ -5,14 +10,17 @@ body {
   line-height: 1.5;
   font-size: 16px;
 }
-.site-nav .link {
-  color: #1976d2;
+
+.link {
+  color: var(--link-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #ff4081;
+  color: var(--link-color-change);
   text-decoration: underline;
 }
+
 .site-nav .link {
   text-decoration: none;
 }
